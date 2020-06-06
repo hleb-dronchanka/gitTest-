@@ -1,0 +1,24 @@
+git init  - инициализация git
+
+
+…or create a new repository on the command line
+echo "# gitTest-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hleb-dronchanka/gitTest-.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/hleb-dronchanka/gitTest-.git
+git push -u origin master
+
+
+
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+
+git config --list
